@@ -1,0 +1,78 @@
+{
+  "kind": "대표 재생 영상의 측정값 (결과 표의 에피소드를 다시 튼 것이 아님)",
+  "policy": "safe_w2",
+  "checkpoint": "/home/rllab/vm_record/policies/safe_w2/model_999.pt",
+  "checkpoint_sha256": "677b2342920146ef7c48e6a405763f98a855406bd58836bb87b646cf4134d74c",
+  "isaaclab_commit": "99a3acd776f47fbcece4413f3c1d63f02b6979e2",
+  "source": "viz:kit",
+  "clips": [
+    "/home/rllab/vm_record/out_run2/safe_w2_zone_x_kit_0000.mp4"
+  ],
+  "dropped_leading_dark_frames": {
+    "/home/rllab/vm_record/out_run2/safe_w2_zone_x_kit_0000.mp4": 1
+  },
+  "target_zone": "zone_x",
+  "target_allowed": false,
+  "target_position_b": [
+    0.6,
+    0.15,
+    0.25
+  ],
+  "target_command_b": [
+    0.6,
+    0.15,
+    0.25,
+    -0.0,
+    1.0,
+    -0.0,
+    -0.0
+  ],
+  "start_joint_pos": [
+    0.0,
+    -0.569,
+    0.0,
+    -2.81,
+    0.0,
+    3.037,
+    0.741,
+    0.04,
+    0.04
+  ],
+  "start_ee_b": [
+    0.3894,
+    0.0,
+    0.4578
+  ],
+  "steps": 150,
+  "step_offset": 5,
+  "step_dt": 0.03333333333333333,
+  "camera": {
+    "eye": [
+      1.54,
+      1.03,
+      0.9
+    ],
+    "lookat": [
+      0.4,
+      0.03,
+      0.38
+    ],
+    "focal_length": 18.0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "success_threshold": {
+    "position_m": 0.05,
+    "orientation_rad": 0.2
+  },
+  "first_success_step": -1,
+  "min_pos_err": 0.1147,
+  "final_pos_err": 0.1632,
+  "entered_forbidden_until_first_success": false,
+  "entered_forbidden_whole_clip": false,
+  "steps_inside_whole_clip": 0,
+  "first_entry_step": -1,
+  "last_inside_step": -1
+}

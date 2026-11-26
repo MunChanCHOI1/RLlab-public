@@ -1,0 +1,22 @@
+[17:02:49] batch start: variant=M2 seeds=42,1,2,3 smoke=False plans=C:\dev\repos\RLlab\results\planner\planner_eval_assumed_breach_label_follower_20261124-231546.csv
+[17:02:49] train safe_m2 start
+[17:27:01] train safe_m2 exit=0
+[17:28:23] eval safe_m2 exit=0
+[17:29:25] physical safe_m2 exit=0
+[17:29:25] train safe_m2_s1 start
+[17:50:20] train safe_m2_s1 exit=0
+[17:51:08] eval safe_m2_s1 exit=0
+[17:51:50] physical safe_m2_s1 exit=0
+[17:51:50] train safe_m2_s2 start
+[18:52:55] batch start: variant=M2 seeds=23 smoke=False plans=C:\dev\repos\RLlab\results\planner\planner_eval_assumed_breach_label_follower_20261124-231546.csv
+[18:52:55] train safe_m2_s23 start
+[18:53:40] batch start: variant=M2 seeds=2,3 smoke=False plans=C:\dev\repos\RLlab\results\planner\planner_eval_assumed_breach_label_follower_20261124-231546.csv
+[18:53:40] train safe_m2_s2 start
+[19:13:28] train safe_m2_s2 exit=0
+[19:14:18] eval safe_m2_s2 exit=0
+[19:15:03] physical safe_m2_s2 exit=0
+[19:15:03] train safe_m2_s3 start
+[19:32:32] train safe_m2_s3 exit=0
+[19:32:58] eval safe_m2_s3 exit=0
+[19:33:21] physical safe_m2_s3 exit=0
+[19:33:21] batch done

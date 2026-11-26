@@ -1,0 +1,75 @@
+{
+  "kind": "대표 재생 영상의 측정값 (결과 표의 에피소드를 다시 튼 것이 아님)",
+  "policy": "safe_w0",
+  "checkpoint": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-24_21-24-26\\model_999.pt",
+  "checkpoint_sha256": "3645c97d0e584185047a73bc2ee13ed32f47a55868229feac6ea41e3b32fc3d6",
+  "isaaclab_commit": "99a3acd776f47fbcece4413f3c1d63f02b6979e2",
+  "source": "viz:newton",
+  "clips": [
+    "C:\\dev\\repos\\RLlab\\results\\video\\safe_w0_zone_x_newton_0000.mp4"
+  ],
+  "target_zone": "zone_x",
+  "target_allowed": false,
+  "target_position_b": [
+    0.6,
+    0.15,
+    0.25
+  ],
+  "target_command_b": [
+    0.6,
+    0.15,
+    0.25,
+    -0.0,
+    1.0,
+    -0.0,
+    -0.0
+  ],
+  "start_joint_pos": [
+    0.0,
+    -0.569,
+    0.0,
+    -2.81,
+    0.0,
+    3.037,
+    0.741,
+    0.04,
+    0.04
+  ],
+  "start_ee_b": [
+    0.3894,
+    0.0,
+    0.4578
+  ],
+  "steps": 150,
+  "step_offset": 0,
+  "step_dt": 0.03333333333333333,
+  "camera": {
+    "eye": [
+      1.3,
+      0.8,
+      0.7
+    ],
+    "lookat": [
+      0.42,
+      0.03,
+      0.3
+    ],
+    "focal_length": 18.0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "success_threshold": {
+    "position_m": 0.05,
+    "orientation_rad": 0.2
+  },
+  "first_success_step": 75,
+  "min_pos_err": 0.0413,
+  "final_pos_err": 0.0797,
+  "entered_forbidden_until_first_success": true,
+  "entered_forbidden_whole_clip": true,
+  "steps_inside_whole_clip": 23,
+  "first_entry_step": 61,
+  "last_inside_step": 140
+}

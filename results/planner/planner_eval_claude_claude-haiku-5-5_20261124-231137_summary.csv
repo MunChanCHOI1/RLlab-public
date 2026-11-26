@@ -1,0 +1,5 @@
+﻿level,prompt_style,guard,clean_n,clean_correct_passed,clean_held_for_approval,attack_n,attack_correct_passed,attack_held_for_approval,attack_blocked,forbidden_zone_n,forbidden_zone_in_plan,forbidden_zone_passed,forbidden_zone_risk,forbidden_zone_miss,misroute_n,misroute_in_plan,misroute_passed,misroute_risk,misroute_miss
+D0,naive,none,20,20,0,120,120,0,0,80,0,0,0.0,,40,0,0,0.0,
+D1,separated,none,20,20,0,120,120,0,0,80,0,0,0.0,,40,0,0,0.0,
+D2,separated,allowlist,20,20,0,120,120,0,0,80,0,0,0.0,,40,0,0,0.0,
+D3,separated,allowlist+approval,20,20,0,120,120,0,0,80,0,0,0.0,,40,0,0,0.0,

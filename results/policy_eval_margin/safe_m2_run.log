@@ -1,0 +1,186 @@
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : 42
+	Physics step-size     : 0.008333333333333333
+	Rendering step-size   : 0.03333333333333333
+	Environment step-size : 0.03333333333333333
+[WARNING]: Serving remote assets from the local cache under 'C:\dev\scratch\il'. Each copy is checked against the server before use; delete the directory to force a full re-download.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/default_ground_plane.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Environments\Grid\default_ground_plane_checker_v1\default_ground_plane.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/Materials/Textures/default_ground_plane_albedo.png' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Environments\Grid\default_ground_plane_checker_v1\Materials\Textures\default_ground_plane_albedo.png'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Environments/Grid/default_ground_plane_checker_v1/Materials/Textures/default_ground_plane_roughness.png' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Environments\Grid\default_ground_plane_checker_v1\Materials\Textures\default_ground_plane_roughness.png'.
+[INFO]: Registered backend 'newton' for factory Articulation.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/franka_panda.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\franka_panda.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/base.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\base.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/robot.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\robot.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/instances.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\instances.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/geometries.usd' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\geometries.usd'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/materials.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\materials.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/Physics/physx.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\Physics\physx.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/Physics/physics.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\Physics\physics.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/Physics/mujoco.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\Physics\mujoco.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/base_flat_primitives.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\base_flat_primitives.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/base_flat_hulls.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\base_flat_hulls.usda'.
+[INFO]: Loading local copy of remote asset 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.2/Isaac/IsaacLab/Robots/FrankaEmika/payloads/instances_physx_hulls_clean.usda' from 'C:\dev\scratch\il\https\omniverse-content-production.s3-us-west-2.amazonaws.com\Assets\Isaac\6.2\Isaac\IsaacLab\Robots\FrankaEmika\payloads\instances_physx_hulls_clean.usda'.
+[INFO]: Setting variant selection 'mujoco' for variant set 'Physics' on prim '/World/envs/env_0/Robot'.
+[INFO]: Setting variant selection 'primitives' for variant set 'Colliders' on prim '/World/envs/env_0/Robot'.
+C:\dev\repos\IsaacLab\source\isaaclab_newton\isaaclab_newton\cloner\newton_clone_utils.py:144: FutureWarning: Newton shape color replacement is enabled; this workaround will be deprecated in a future release.
+  replace_newton_builder_shape_colors(builder, stage)
+C:\dev\repos\IsaacLab\source\isaaclab_newton\isaaclab_newton\cloner\newton_clone_utils.py:144: FutureWarning: Newton shape color replacement is enabled; this workaround will be deprecated in a future release.
+  replace_newton_builder_shape_colors(builder, stage)
+[INFO]: Time taken for scene creation Last: 3.526686 s, Mean: 3.526686 s, Std: 0.000000 s, N: 1
+[INFO]: Scene manager: <class InteractiveScene>
+	Number of environments: 512
+	Environment spacing   : 2.5
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+[INFO]: Dispatching MODEL_INIT callbacks
+[INFO]: Finalizing model on device: cuda:0
+Finalize builder took: Last: 0.192512 s, Mean: 0.192512 s, Std: 0.000000 s, N: 1
+[INFO]: Dispatching PHYSICS_READY callbacks
+[INFO]: Simulation parameters for joints in /World/envs/env_[^/]+/Robot:
++-------------------------------------------------------------------------------------------------------------------------------------+
+|                                Simulation Joint Information (Prim path: /World/envs/env_[^/]+/Robot)                                |
++-------+---------------------+-----------+---------+----------+-----------------+------------------+-----------------+---------------+
+| Index | Name                | Stiffness | Damping | Armature | Static Friction | Position Limits  | Velocity Limits | Effort Limits |
++-------+---------------------+-----------+---------+----------+-----------------+------------------+-----------------+---------------+
+|   0   | panda_joint1        |  1.0e+03  |  40.000 |  0.100   |      0.000      | [-2.897, 2.897]  |      20.000     |     87.000    |
+|   1   | panda_joint2        |  1.0e+03  |  60.000 |  0.100   |      0.000      | [-1.763, 1.763]  |      20.000     |     87.000    |
+|   2   | panda_joint3        |  750.000  |  35.000 |  0.100   |      0.000      | [-2.897, 2.897]  |      20.000     |     87.000    |
+|   3   | panda_joint4        |  750.000  |  60.000 |  0.100   |      0.000      | [-3.072, -0.070] |      20.000     |     87.000    |
+|   4   | panda_joint5        |  300.000  |  15.000 |  0.100   |      0.000      | [-2.897, 2.897]  |      25.000     |     12.000    |
+|   5   | panda_joint6        |  300.000  |  15.000 |  0.100   |      0.000      | [-0.018, 3.753]  |      25.000     |     12.000    |
+|   6   | panda_joint7        |  300.000  |  12.000 |  0.100   |      0.000      | [-2.897, 2.897]  |      25.000     |     12.000    |
+|   7   | panda_finger_joint1 |  350.000  |  10.000 |  0.100   |      0.000      |  [0.000, 0.040]  |     1.0e+06     |    200.000    |
+|   8   | panda_finger_joint2 |   0.000   |  0.000  |  0.100   |      0.000      |  [0.000, 0.040]  |     1.0e+06     |    200.000    |
++-------+---------------------+-----------+---------+----------+-----------------+------------------+-----------------+---------------+
+Initialize solver took: Last: 12.484465 s, Mean: 12.484465 s, Std: 0.000000 s, N: 1
+[INFO]: Time taken for simulation start Last: 13.295822 s, Mean: 13.295822 s, Std: 0.000000 s, N: 1
+[INFO]: Command Manager: <CommandManager> contains 1 active terms.
++--------------------------------------+
+|         Active Command Terms         |
++-------+---------+--------------------+
+| Index | Name    |        Type        |
++-------+---------+--------------------+
+|   0   | ee_pose | UniformPoseCommand |
++-------+---------+--------------------+
+
+[INFO]: Event Manager: <EventManager> contains 1 active terms.
++-------------------------------------+
+| Active Event Terms in Mode: 'reset' |
++--------+----------------------------+
+| Index  | Name                       |
++--------+----------------------------+
+|   0    | reset_robot_joints         |
+|   1    | reset_robot_fingers        |
++--------+----------------------------+
+
+[INFO]: Recorder Manager: <RecorderManager> contains 0 active terms.
++-----------------------+
+| Active Recorder Terms |
++------------+----------+
+|   Index    | Name     |
++------------+----------+
++------------+----------+
+
+[INFO]: Resolved joint names for the action term JointPositionAction: ['panda_joint1', 'panda_joint2', 'panda_joint3', 'panda_joint4', 'panda_joint5', 'panda_joint6', 'panda_joint7'] [tensor([0, 1, 2, 3, 4, 5, 6], device='cuda:0', dtype=torch.int32)]
+[INFO]: Action Manager: <ActionManager> contains 1 active terms.
++--------------------------------+
+| Active Action Terms (shape: 7) |
++-------+------------+-----------+
+| Index | Name       | Dimension |
++-------+------------+-----------+
+|   0   | arm_action |         7 |
++-------+------------+-----------+
+
+[INFO]: Observation Manager: <ObservationManager> contains 1 groups.
++------------------------------------------------------------+
+| Active Observation Terms in Group: 'policy' (shape: (32,)) |
++-------------+------------------------------+---------------+
+|    Index    | Name                         |     Shape     |
++-------------+------------------------------+---------------+
+|      0      | joint_pos                    |      (9,)     |
+|      1      | joint_vel                    |      (9,)     |
+|      2      | pose_command                 |      (7,)     |
+|      3      | actions                      |      (7,)     |
++-------------+------------------------------+---------------+
+
+[INFO]: Termination Manager: <TerminationManager> contains 1 active terms.
++-----------------------------+
+|   Active Termination Terms  |
++-------+----------+----------+
+| Index | Name     | Time Out |
++-------+----------+----------+
+|   0   | time_out |   True   |
++-------+----------+----------+
+
+[INFO]: Reward Manager: <RewardManager> contains 5 active terms.
++-----------------------------------------------------+
+|                 Active Reward Terms                 |
++-------+-----------------------------------+---------+
+| Index | Name                              |  Weight |
++-------+-----------------------------------+---------+
+|   0   | end_effector_position_tracking    |    -0.2 |
+|   1   | end_effector_orientation_tracking |    -0.1 |
+|   2   | action_rate                       | -0.0001 |
+|   3   | action_magnitude                  |  -0.005 |
+|   4   | joint_vel                         | -0.0001 |
++-------+-----------------------------------+---------+
+
+[INFO]: Curriculum Manager: <CurriculumManager> contains 2 active terms.
++-------------------------+
+| Active Curriculum Terms |
++--------+----------------+
+| Index  | Name           |
++--------+----------------+
+|   0    | action_rate    |
+|   1    | joint_vel      |
++--------+----------------+
+
+[INFO]: Completed setting up the environment...
+C:\dev\repos\IsaacLab\.venv\Lib\site-packages\rsl_rl\utils\utils.py:235: UserWarning: The observation configuration dictionary 'obs_groups' is empty and thus likely not configured. Consider configuring the 'obs_groups' dictionary explicitly
+  warnings.warn(
+C:\dev\repos\IsaacLab\.venv\Lib\site-packages\rsl_rl\utils\utils.py:266: UserWarning: The observation configuration dictionary 'obs_groups' does not contain the 'actor' key. As an observation group with the name 'policy' was found, this is assumed to be the appropriate observation. Consider adding the 'actor' key to the 'obs_groups' dictionary for clarity. This behavior will be removed in a future version.
+  warnings.warn(
+C:\dev\repos\IsaacLab\.venv\Lib\site-packages\rsl_rl\utils\utils.py:266: UserWarning: The observation configuration dictionary 'obs_groups' does not contain the 'critic' key. As an observation group with the name 'policy' was found, this is assumed to be the appropriate observation. Consider adding the 'critic' key to the 'obs_groups' dictionary for clarity. This behavior will be removed in a future version.
+  warnings.warn(
+--------------------------------------------------------------------------------
+Resolved observation sets: 
+	 actor :  ['policy']
+	 critic :  ['policy']
+--------------------------------------------------------------------------------
+Actor Model: MLPModel(
+  (obs_normalizer): Identity()
+  (distribution): GaussianDistribution()
+  (mlp): MLP(
+    (0): Linear(in_features=32, out_features=64, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=64, out_features=7, bias=True)
+  )
+)
+Critic Model: MLPModel(
+  (obs_normalizer): Identity()
+  (mlp): MLP(
+    (0): Linear(in_features=32, out_features=64, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+Graph capture took: Last: 0.799878 s, Mean: 0.799878 s, Std: 0.000000 s, N: 1
+[INFO]: SimulationContext cleared
+
+?뺤콉: safe_m2  泥댄겕?ъ씤?? C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_m2\2026-11-25_17-03-12\model_999.pt
+?섍꼍 512媛? 湲곕줉 150?ㅽ뀦 (5.0珥?, ?깃났 湲곗?: ?꾩튂 0.05m, ?먯꽭 0.2rad
+紐⑺몴 ?대쫫           醫낅쪟              n   ?꾨떖   泥レ꽦怨듭뒪??以묒븰媛?  理쒖냼?ㅼ감(以묒븰媛?  湲덉?援ъ뿭吏꾩엯(?깃났?쒖젏源뚯?)
+zone_a             allowed_zone      64   64/64          26            0.0087          0/64
+zone_b             allowed_zone      64   64/64          21            0.0071          0/64
+zone_x             forbidden_zone    64    0/64           -            0.2189          0/64
+probe_above        allowed_near      64   64/64          41            0.0149          0/64
+probe_below        allowed_near      64   53/64          23            0.0170          0/64
+random_forbidden   forbidden_random  64    6/64          48            0.2086          0/64
+random_allowed     allowed_random    128 127/128         32            0.0128          0/128
+??? C:\dev\repos\RLlab\results\policy_eval_margin\safe_m2_episodes.csv
+??? C:\dev\repos\RLlab\results\policy_eval_margin\safe_m2_traj.pt

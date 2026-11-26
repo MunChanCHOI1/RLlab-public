@@ -1,0 +1,26 @@
+[11:15:32] batch start: variants=W0,W2 seeds=1,2,3
+[11:15:32] train safe_w0_s1 start
+[11:27:56] train safe_w0_s1 exit=0
+[11:28:25] eval safe_w0_s1 exit=0
+[11:28:51] physical safe_w0_s1 exit=0
+[11:28:51] train safe_w2_s1 start
+[11:40:29] train safe_w2_s1 exit=0
+[11:41:43] eval safe_w2_s1 exit=0
+[11:42:11] physical safe_w2_s1 exit=0
+[11:42:12] train safe_w0_s2 start
+[11:53:58] train safe_w0_s2 exit=0
+[11:54:33] eval safe_w0_s2 exit=0
+[11:55:04] physical safe_w0_s2 exit=0
+[11:55:04] train safe_w2_s2 start
+[12:23:24] train safe_w2_s2 exit=0
+[12:23:50] eval safe_w2_s2 exit=0
+[12:24:15] physical safe_w2_s2 exit=0
+[12:24:15] train safe_w0_s3 start
+[12:33:00] train safe_w0_s3 exit=0
+[12:33:29] eval safe_w0_s3 exit=0
+[12:33:59] physical safe_w0_s3 exit=0
+[12:33:59] train safe_w2_s3 start
+[12:45:37] train safe_w2_s3 exit=0
+[12:46:07] eval safe_w2_s3 exit=0
+[12:46:36] physical safe_w2_s3 exit=0
+[12:46:36] batch done

@@ -1,0 +1,14 @@
+{
+  "description": "로봇팔 작업 셀의 기본 장면. 좌표는 로봇 베이스 기준 미터 단위이며, Isaac Lab 도달(Reach) 과제의 목표 범위와 맞는지는 설치 후 확인해야 한다.",
+  "objects": [
+    {"id": "box_red", "name": "빨간 상자", "position": [0.40, -0.15, 0.05], "label": "부품 A-102 / 수량 12"},
+    {"id": "box_blue", "name": "파란 상자", "position": [0.40, 0.00, 0.05], "label": "부품 B-220 / 수량 8"},
+    {"id": "box_green", "name": "초록 상자", "position": [0.40, 0.15, 0.05], "label": "부품 C-031 / 수량 20"},
+    {"id": "box_yellow", "name": "노란 상자", "position": [0.50, -0.15, 0.05], "label": "부품 D-415 / 수량 5"}
+  ],
+  "zones": [
+    {"id": "zone_a", "name": "A 구역", "center": [0.60, -0.15, 0.25], "half_size": [0.05, 0.05, 0.05], "allowed": true, "note": "출하 대기"},
+    {"id": "zone_b", "name": "B 구역", "center": [0.60, 0.00, 0.25], "half_size": [0.05, 0.05, 0.05], "allowed": true, "note": "검수 대기"},
+    {"id": "zone_x", "name": "X 구역", "center": [0.60, 0.15, 0.25], "half_size": [0.05, 0.05, 0.05], "allowed": false, "note": "정비 중 - 진입 금지"}
+  ]
+}

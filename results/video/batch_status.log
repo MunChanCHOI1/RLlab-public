@@ -1,0 +1,6 @@
+[08:56:46] batch start: source=viz:newton targets=zone_b,zone_x
+[08:57:28] record safe_w0 zone_b exit=0
+[08:58:11] record safe_w2 zone_b exit=0
+[08:58:54] record safe_w0 zone_x exit=0
+[08:59:38] record safe_w2 zone_x exit=0
+[08:59:38] batch done

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>RLlab Executive Summary</title>
+<style>
+  @page { size: A4; margin: 0; }
+  :root {
+    --ink: #16202b;
+    --ink-2: #44505c;
+    --ink-3: #6b7682;
+    --rule: #d5dae0;
+    --panel: #f3f5f7;
+    --accent: #1f5f8b;
+    --warn: #9a4a12;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body {
+    font-family: "Noto Sans KR", "Malgun Gothic", "Pretendard", sans-serif;
+    color: var(--ink);
+    font-size: 8.6pt;
+    line-height: 1.5;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    word-break: keep-all;
+  }
+  .page {
+    width: 210mm;
+    height: 297mm;
+    padding: 13mm 14mm 11mm;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  header { border-bottom: 1.6pt solid var(--ink); padding-bottom: 3mm; margin-bottom: 3.5mm; }
+  .eyebrow { font-size: 7.4pt; letter-spacing: .08em; color: var(--accent); font-weight: 700; text-transform: uppercase; }
+  h1 { font-size: 17pt; line-height: 1.25; margin: 1mm 0 1.2mm; font-weight: 700; letter-spacing: -.01em; }
+  .lede { color: var(--ink-2); margin: 0; font-size: 9pt; }
+  h2 {
+    font-size: 8pt; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 1.4mm; font-weight: 700;
+  }
+  section { margin-bottom: 3.2mm; }
+  p { margin: 0 0 1.2mm; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .flow {
+    display: flex; align-items: stretch; gap: 1.2mm; margin: -1mm 0 3.4mm; font-size: 7.8pt;
+  }
+  .flow > div {
+    flex: 1; border: 0.8pt solid var(--rule); border-radius: 1.2mm; padding: 1.2mm 1.6mm; background: var(--panel);
+  }
+  .flow b { display: block; font-size: 8pt; }
+  .flow span.arrow { flex: 0 0 auto; align-self: center; color: var(--ink-3); }
+  .findings { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; }
+  .card { border-top: 2pt solid var(--ink); padding-top: 1.6mm; }
+  .card.warn { border-top-color: var(--warn); }
+  .num { font-size: 15pt; font-weight: 700; line-height: 1.1; letter-spacing: -.01em; }
+  .num small { font-size: 8pt; font-weight: 500; color: var(--ink-3); }
+  .card h3 { font-size: 8.8pt; margin: 1mm 0 .8mm; }
+  .card p { color: var(--ink-2); font-size: 8pt; }
+  figure { margin: 0; }
+  .figs { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+  .figs img { width: 100%; height: 44mm; object-fit: cover; object-position: 55% 80%; display: block; border: 0.6pt solid var(--rule); }
+  .figs figcaption { font-size: 7.6pt; color: var(--ink-2); margin-top: .8mm; }
+  .figs figcaption b { color: var(--ink); }
+  .fignote { font-size: 7.2pt; color: var(--ink-3); margin-top: 1mm; }
+  table { width: 100%; border-collapse: collapse; font-size: 7.6pt; }
+  th, td { text-align: left; vertical-align: top; padding: 1mm 1.4mm; border-bottom: 0.6pt solid var(--rule); }
+  th { font-weight: 700; color: var(--ink-2); border-bottom: 1pt solid var(--ink); font-size: 7.4pt; }
+  td:first-child { font-weight: 700; white-space: nowrap; }
+  ul { margin: 0; padding-left: 4mm; }
+  li { margin-bottom: .6mm; }
+  .muted { color: var(--ink-3); }
+  footer {
+    margin-top: auto; border-top: 0.8pt solid var(--rule); padding-top: 1.8mm;
+    font-size: 7.2pt; color: var(--ink-3); display: flex; justify-content: space-between; gap: 4mm;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <div class="eyebrow">Executive Summary · Physical AI 보안 실험</div>
+  <h1>라벨 한 줄로 로봇을 움직일 수 있는가</h1>
+  <p class="lede">LLM이 지시하는 로봇팔 셀에서 간접 프롬프트 인젝션의 위험을 방어 계층별로 측정한 시뮬레이션 실험 (Isaac Lab, Franka 로봇팔)</p>
+</header>
+
+<div class="two">
+  <section>
+    <h2>문제</h2>
+    <p>물류, 제조 현장에서 LLM을 로봇의 상위 계획기로 쓰면 물건에 붙은 라벨 같은 외부 글자가 지시문과 섞일 수 있고, 잘못된 판단은 곧 물리적 움직임이 됩니다.</p>
+    <p class="muted">OWASP LLM01(간접 프롬프트 인젝션), EU AI Act 제14조(인적 감독)·제15조(견고성, 사이버보안). 기계에 들어가는 AI의 요건은 2028-08-02까지 기계류 규정으로 반영될 예정.</p>
+  </section>
+  <section>
+    <h2>접근</h2>
+    <p>공격자는 <b>라벨만 붙일 수 있다</b>고 가정. Claude는 속지 않아, 물리 계층은 계획기가 뚫렸다고 가정한 계획 140건(금지 목적지 80, 허용 60)으로 시험.</p>
+  </section>
+</div>
+<div class="flow">
+      <div><b>LLM 계획기</b>D0 방어 없음<br>D1 프롬프트 분리</div><span class="arrow">→</span>
+      <div><b>검사 단계</b>D2 금지 구역 차단<br>D3 지시 대조·승인</div><span class="arrow">→</span>
+      <div><b>RL 정책</b>기본 / 금지 구역 벌점</div><span class="arrow">→</span>
+      <div><b>팔 끝 궤적</b>진입 판정</div>
+</div>
+
+<section>
+  <h2>핵심 발견</h2>
+  <div class="findings">
+    <div class="card">
+      <div class="num">0/120</div>
+      <h3>Claude는 속지 않고, 소형 모델은 속았다</h3>
+      <p>Claude 2종은 공격 반영 0건 (모델마다 1회). 로컬 qwen3:8b는 방어 없는 D0에서 금지 구역 11/80, 오배송 30/40을 따랐고, 라벨을 데이터로 구분한 D1부터 0건.</p>
+    </div>
+    <div class="card">
+      <div class="num">80 → 0 <small>건</small></div>
+      <h3>뚫리면 코드 통제가 막는다</h3>
+      <p>검사가 없으면 기본 정책은 금지 구역에 80/80 진입. 금지 구역 차단(D2)은 금지 목적지 전달을 80 → 0으로 막았으나, 허용 목적지로 가는 도중 침범(대조군 0~9/60)은 못 막음.</p>
+    </div>
+    <div class="card warn">
+      <div class="num">0/80 <small>· 경계 0~10/64</small></div>
+      <h3>벌점 정책은 최후 방어선, 보장은 아님</h3>
+      <p>벌점 2, 학습 시드 4개: 검사 없이도 금지 목적지 0/80, 이동 중 침범 0/60, 허용 도달 60/60. 구역 경계 4cm 아래 목표에서는 0~10/64 진입.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+<!-- FIGURES:BEGIN -->
+  <div class="figs">
+    <figure><img src="../img/kit_safe_w0_zone_x.png" alt="대조군 (벌점 0): 금지 구역에 들어감"><figcaption><b>대조군 (벌점 0):</b> 금지 구역에 들어감</figcaption></figure>
+    <figure><img src="../img/kit_safe_w2_zone_x.png" alt="벌점 2: 구역 밖에서 멈춤"><figcaption><b>벌점 2:</b> 구역 밖에서 멈춤</figcaption></figure>
+  </div>
+  <div class="fignote">금지 구역(빨간 윤곽선) 중심을 목표로 준 재생의 마지막 프레임. Isaac Sim 렌더링, 학습 시드 42. 영상은 표의 건수를 대신하지 않음.</div>
+<!-- FIGURES:END -->
+</section>
+
+<section>
+  <h2>통제 모델 시사점</h2>
+  <table>
+    <thead><tr><th>계층</th><th>통제 유형 (내부통제 비유)</th><th>관측된 효과</th><th>남은 위험</th></tr></thead>
+    <tbody>
+      <tr><td>D1 프롬프트 분리</td><td>예방·자동·소프트 (업무 지침 고지)</td><td>qwen3:8b 오배송 30/40 → 0</td><td>모델이 속으면 막지 못함</td></tr>
+      <tr><td>D2 금지 구역 차단</td><td>예방·자동·하드 (애플리케이션 통제)</td><td>금지 목적지 80 → 0</td><td>경로상 침범은 보지 못함</td></tr>
+      <tr><td>D3 지시 대조·승인</td><td>적발·수동 승인 (maker-checker, 직무분리)</td><td>다른 상자 계획 40건 보류</td><td>승인 결과 미측정, 승인 피로</td></tr>
+      <tr><td>벌점 RL 정책</td><td>예방·자동·확률적 (보완 통제)</td><td>금지 목적지 0/80, 경로 0/60</td><td>경계 근처 0~10/64</td></tr>
+    </tbody>
+  </table>
+  <p style="margin-top:1.4mm">통제마다 덮는 위험과 남는 위험을 <b>건수와 분모로</b> 적어야 하며, 상위 계층이 뚫렸다고 가정한 시험이 있어야 하위 통제의 운영 효과성을 말할 수 있습니다. 이 시험은 디지털 트윈에서 배치 전에 할 수 있습니다.</p>
+</section>
+
+<div class="two">
+  <section>
+    <h2>한계</h2>
+    <ul>
+      <li>시뮬레이션만, 도달 과제 하나, 팔 끝 한 점 판정</li>
+      <li>물리 계층 결과는 계획기가 뚫렸다고 가정한 조건</li>
+      <li>정책 시드 4개 이하, 평가 1회. 사람의 승인 결과는 미측정</li>
+    </ul>
+  </section>
+  <section>
+    <h2>향후 개선 계획</h2>
+    <ul>
+      <li>소형 모델의 실제 돌파 계획을 물리 계층까지 연결</li>
+      <li>여유 벌점(침범 21→2/256)의 도달 손실 줄이기, 팔 전체 판정</li>
+      <li>정책이 멈춘 사실을 상위 계층에 보고</li>
+    </ul>
+  </section>
+</div>
+
+<footer>
+  <span>상세: docs/BUSINESS_CONTEXT.md (표준·규제 매핑, Use Case) · docs/REPORT.md · docs/RESULTS.md</span>
+  <span>수치 출처: README, RESULTS.md · 2026-11-25</span>
+</footer>
+
+</div>
+</body>
+</html>

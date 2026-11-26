@@ -1,0 +1,11 @@
+policy,variant,seed,run_dir
+safe_w0_s1,W0,1,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w0\2026-11-25_11-15-50
+safe_w2_s1,W2,1,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w2\2026-11-25_11-29-01
+safe_w0_s2,W0,2,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w0\2026-11-25_11-42-23
+safe_w2_s2,W2,2,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w2\2026-11-25_11-55-20
+safe_w0_s3,W0,3,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w0\2026-11-25_12-24-25
+safe_w2_s3,W2,3,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w2\2026-11-25_12-34-10
+safe_m2,M2,42,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_m2\2026-11-25_17-03-12
+safe_m2_s1,M2,1,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_m2\2026-11-25_17-29-41
+safe_m2_s2,M2,2,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_m2\2026-11-25_18-53-48
+safe_m2_s3,M2,3,C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_m2\2026-11-25_19-15-20

@@ -1,0 +1,14 @@
+[21:24:14] batch start: W0, W05, W2, W10
+[21:24:14] train W0 start
+[21:34:07] train W0 exit=0
+[21:34:32] eval W0 exit=0 ckpt=C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w0\2026-11-24_21-24-26\model_999.pt
+[21:34:32] train W05 start
+[21:44:20] train W05 exit=0
+[21:44:45] eval W05 exit=0 ckpt=C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w05\2026-11-24_21-34-43\model_999.pt
+[21:44:45] train W2 start
+[21:55:49] train W2 exit=0
+[21:56:14] eval W2 exit=0 ckpt=C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w2\2026-11-24_21-44-57\model_999.pt
+[21:56:14] train W10 start
+[22:06:46] train W10 exit=0
+[22:07:13] eval W10 exit=0 ckpt=C:\dev\repos\IsaacLab\logs\rsl_rl\reach_franka_safe_w10\2026-11-24_21-56-25\model_999.pt
+[22:07:13] batch done

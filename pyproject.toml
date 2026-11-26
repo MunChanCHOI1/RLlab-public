@@ -1,0 +1,12 @@
+[project]
+name = "robotguard"
+version = "0.1.0"
+description = "LLM이 지휘하는 로봇팔 셀의 프롬프트 인젝션 실험: 계획기, 코드 검사, 강화학습 정책의 계층별 방어 측정"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+# 실제 LLM 계획기: uv run --extra llm python -m robotguard.evaluate --planner claude
+llm = ["anthropic"]
+# 결과 분석과 그래프
+analysis = ["pandas", "matplotlib", "scipy", "numpy"]

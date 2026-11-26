@@ -1,0 +1,28 @@
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+
+# 비밀 값
+.env
+
+# 실험 산출물: CSV는 커밋 대상, 대용량 파일만 제외
+results/**/*.pt
+results/**/*.mp4
+logs/
+outputs/
+
+# Isaac Lab을 이 폴더 안에 받았을 때
+external/
+
+# 분석용 궤적 변환본 (.pt에서 sim/export_traj.py로 재생성)
+results/analytics/*.npz
+
+# 학습 원본 로그와 시험 실행 결과 (요약은 *_status.log, seed_runs.csv, docs/에 있음)
+results/train/reach_*.log
+results/margin_smoke/
+
+# 본 결과에 넣지 않은 시험 실행 (로컬에만 둔다)
+results/planner_multi/smoke/
+results/planner_trial/
+results/video_kit/trial/

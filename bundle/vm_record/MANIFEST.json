@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-11-25T04:28:55Z",
+  "isaaclab_commit": "99a3acd776f47fbcece4413f3c1d63f02b6979e2",
+  "isaaclab_tracked_files_modified": false,
+  "task": "Isaac-Reach-Franka (play 모드)",
+  "policies": {
+    "safe_w0": {
+      "description": "대조군: 목표 혼합과 성공 조건만 적용, 벌점 가중치 0",
+      "run_dir": "reach_franka_safe_w0/2026-11-24_21-24-26"
+    },
+    "safe_w2": {
+      "description": "벌점 정책: 금지 구역 벌점 가중치 2",
+      "run_dir": "reach_franka_safe_w2/2026-11-24_21-44-57"
+    }
+  },
+  "reference_note": "reference/ 는 이 PC에서 viz:newton으로 같은 재생을 했을 때의 측정값이다.",
+  "files": [
+    {
+      "path": "data/scene.json",
+      "bytes": 1179,
+      "sha256": "6e5b102698fe34c83e26ed88053c52f0c7b2dd5eceaef9e62555334895abfaa6",
+      "source": "C:\\dev\\repos\\RLlab\\data\\scene.json"
+    },
+    {
+      "path": "policies/safe_w0/model_999.pt",
+      "bytes": 172923,
+      "sha256": "3645c97d0e584185047a73bc2ee13ed32f47a55868229feac6ea41e3b32fc3d6",
+      "source": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-24_21-24-26\\model_999.pt"
+    },
+    {
+      "path": "policies/safe_w0/params/agent.yaml",
+      "bytes": 1308,
+      "sha256": "49126d683f1677be9a75744856986f6f6b89edfe8a209d267112fc9beb1d80c9",
+      "source": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-24_21-24-26\\params\\agent.yaml"
+    },
+    {
+      "path": "policies/safe_w0/params/env.yaml",
+      "bytes": 26889,
+      "sha256": "95d5447d1dc46414779aa7aa1de183e155e0bbf3a7ecd50705e3169cde041c23",
+      "source": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-24_21-24-26\\params\\env.yaml"
+    },
+    {
+      "path": "policies/safe_w2/model_999.pt",
+      "bytes": 172923,
+      "sha256": "677b2342920146ef7c48e6a405763f98a855406bd58836bb87b646cf4134d74c",
+      "source": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w2\\2026-11-24_21-44-57\\model_999.pt"
+    },
+    {
+      "path": "policies/safe_w2/params/agent.yaml",
+      "bytes": 1308,
+      "sha256": "fb1834192e601000b671b2f8e2d61b2a08cfb6c6079c700158cc7ef421f366a4",
+      "source": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w2\\2026-11-24_21-44-57\\params\\agent.yaml"
+    },
+    {
+      "path": "policies/safe_w2/params/env.yaml",
+      "bytes": 26889,
+      "sha256": "a721e9e2661fe4c27873d4489f617f60be9936326359682f6520da50ac506f85",
+      "source": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w2\\2026-11-24_21-44-57\\params\\env.yaml"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2247,
+      "sha256": "dce99f2735027fe3e022eb61e56eaf608a11beddd59a0fb46cd4c68adf50121a",
+      "source": null
+    },
+    {
+      "path": "record_pair.sh",
+      "bytes": 2620,
+      "sha256": "d027ab48f90d76786d28cb4a95fb3b80a17194bbafd6ebde143773ac68e4c4c6",
+      "source": null
+    },
+    {
+      "path": "reference/safe_w0_zone_b_newton.json",
+      "bytes": 1572,
+      "sha256": "ef68460cf7e10e1e52f4893f12ed7053e01c29ea2de3fac17ed6f71c71998415",
+      "source": "C:\\dev\\repos\\RLlab\\results\\video\\safe_w0_zone_b_newton.json"
+    },
+    {
+      "path": "reference/safe_w0_zone_x_newton.json",
+      "bytes": 1578,
+      "sha256": "242921f797a7763e701b0ffe3bba03b5db884d6b797779aebbb6470e34adaaff",
+      "source": "C:\\dev\\repos\\RLlab\\results\\video\\safe_w0_zone_x_newton.json"
+    },
+    {
+      "path": "reference/safe_w2_zone_b_newton.json",
+      "bytes": 1575,
+      "sha256": "1402095af80cda5ffdb18b66da5d6ab412d7286b5904f6ac83c730263317d8fe",
+      "source": "C:\\dev\\repos\\RLlab\\results\\video\\safe_w2_zone_b_newton.json"
+    },
+    {
+      "path": "reference/safe_w2_zone_x_newton.json",
+      "bytes": 1578,
+      "sha256": "b27e97cc869f052839a9fdc3e10d4af828df6cf64b3226f26d96ae1fa4189aba",
+      "source": "C:\\dev\\repos\\RLlab\\results\\video\\safe_w2_zone_x_newton.json"
+    },
+    {
+      "path": "robotguard/__init__.py",
+      "bytes": 131,
+      "sha256": "b153a48216ca2c72498644de5ebddbc658054fc8f6bee4ba900164bc225d8f8e",
+      "source": "C:\\dev\\repos\\RLlab\\robotguard\\__init__.py"
+    },
+    {
+      "path": "robotguard/zones.py",
+      "bytes": 1025,
+      "sha256": "3f706952d9a25b79639a156672eaf71ad5d28bf2ebdb0e9456402f595ce2cfb5",
+      "source": "C:\\dev\\repos\\RLlab\\robotguard\\zones.py"
+    },
+    {
+      "path": "setup_vm.sh",
+      "bytes": 3614,
+      "sha256": "9209b7e3b1b0bd3fb3b2956bdc7226515fd02f44f52630d7f03dddbd4a84fee7",
+      "source": null
+    },
+    {
+      "path": "sim/record_clip.py",
+      "bytes": 19963,
+      "sha256": "4ca2d6b7ce6b584b1f85c3c2596aeecd93d1cc80b2be22e846c26826979ce1b7",
+      "source": "C:\\dev\\repos\\RLlab\\sim\\record_clip.py"
+    }
+  ]
+}

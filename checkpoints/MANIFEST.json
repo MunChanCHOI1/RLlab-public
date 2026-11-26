@@ -1,0 +1,291 @@
+{
+  "isaaclab_commit": "99a3acd776f47fbcece4413f3c1d63f02b6979e2",
+  "train": "rsl_rl PPO, 환경 4096개, 1000회 반복",
+  "policies": {
+    "baseline": {
+      "task": "Isaac-Reach-Franka",
+      "train_seed": 42,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka\\2026-11-24_21-02-13",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "c684d38ee5d1329b13779c1966988b3368075921d866e396f344f73711b03128"
+        },
+        "params/agent.yaml": {
+          "bytes": 1300,
+          "sha256": "7e03d92fe821b5a53aeecf3a2a8ad76dbc6bec5c457db8f022dd4a8b99117e20"
+        },
+        "params/env.yaml": {
+          "bytes": 25846,
+          "sha256": "23f05c35b560beaaadd43b8e52e9a1a58edcf333687a4197151ddbcdb9745c56"
+        }
+      }
+    },
+    "safe_w0": {
+      "task": "RLlab-Reach-Franka-Safe-W0",
+      "train_seed": 42,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-24_21-24-26",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "3645c97d0e584185047a73bc2ee13ed32f47a55868229feac6ea41e3b32fc3d6"
+        },
+        "params/agent.yaml": {
+          "bytes": 1308,
+          "sha256": "49126d683f1677be9a75744856986f6f6b89edfe8a209d267112fc9beb1d80c9"
+        },
+        "params/env.yaml": {
+          "bytes": 26889,
+          "sha256": "95d5447d1dc46414779aa7aa1de183e155e0bbf3a7ecd50705e3169cde041c23"
+        }
+      }
+    },
+    "safe_w05": {
+      "task": "RLlab-Reach-Franka-Safe-W05",
+      "train_seed": 42,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w05\\2026-11-24_21-34-43",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "3d67865dc6b3edef6d11cb845f4a0ec69f1c665a8fa1c9bec4016149a72d464f"
+        },
+        "params/agent.yaml": {
+          "bytes": 1309,
+          "sha256": "12099070daec14d4b9dfd3edc754a2a42047c16ae3f555fb147cfd17a6eb1b28"
+        },
+        "params/env.yaml": {
+          "bytes": 26890,
+          "sha256": "3cfada2c080e07c2598f3e8a7e1ff7fea0a455af1ac629b6d68d6bd2729827ae"
+        }
+      }
+    },
+    "safe_w2": {
+      "task": "RLlab-Reach-Franka-Safe-W2",
+      "train_seed": 42,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w2\\2026-11-24_21-44-57",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "677b2342920146ef7c48e6a405763f98a855406bd58836bb87b646cf4134d74c"
+        },
+        "params/agent.yaml": {
+          "bytes": 1308,
+          "sha256": "fb1834192e601000b671b2f8e2d61b2a08cfb6c6079c700158cc7ef421f366a4"
+        },
+        "params/env.yaml": {
+          "bytes": 26889,
+          "sha256": "a721e9e2661fe4c27873d4489f617f60be9936326359682f6520da50ac506f85"
+        }
+      }
+    },
+    "safe_w10": {
+      "task": "RLlab-Reach-Franka-Safe-W10",
+      "train_seed": 42,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w10\\2026-11-24_21-56-25",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "4d3c12ca73c968abaeb578be95fd908288e902b8c409df368d0b9cd5e730fdde"
+        },
+        "params/agent.yaml": {
+          "bytes": 1309,
+          "sha256": "1229ddc63117bc478dd047d03dde5750c21e6dbcfe179d26364eba4839f2a2a0"
+        },
+        "params/env.yaml": {
+          "bytes": 26891,
+          "sha256": "e0ca1da09b53a70802de50e07c81d8592dd95898fdb788f685bcc78a4ab09c5a"
+        }
+      }
+    },
+    "safe_w0_s1": {
+      "task": "RLlab-Reach-Franka-Safe-W0",
+      "train_seed": 1,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-25_11-15-50",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "5f759cb648840f6a2c78d86e8e16c70df3b9262f0a93c64c5b06cd0e98a8c6ad"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "f0206610fd26b3ef4379faaef98b578cc8a23491b0ff3553b234d404f880a4cd"
+        },
+        "params/env.yaml": {
+          "bytes": 26888,
+          "sha256": "6e00b2cca46f2bb8871fcd98ffe01f9f18508cf15a8b22eec82130861ef94712"
+        }
+      }
+    },
+    "safe_w2_s1": {
+      "task": "RLlab-Reach-Franka-Safe-W2",
+      "train_seed": 1,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w2\\2026-11-25_11-29-01",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "48c87086c4456fd96a58b2fe949e87f1f601700ec45e527b5307a690b9862653"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "af3bf18619f60065a2c9c6c6e58384a866df02988c0391e4255e9cb81178ff65"
+        },
+        "params/env.yaml": {
+          "bytes": 26888,
+          "sha256": "fc29127cef4358e06c2fa8321d670b56bbb0136cd2ec558af274a75165f9a08e"
+        }
+      }
+    },
+    "safe_w0_s2": {
+      "task": "RLlab-Reach-Franka-Safe-W0",
+      "train_seed": 2,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-25_11-42-23",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "20ed9b1781828ade6af0c735621543cf41ba0d3d54ff4faca3c49ed48b2993ae"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "27eab1afe6a578a55c3f9cc5cff5ea4d2a39d3b237cf9483bd43d3410ac2dfb5"
+        },
+        "params/env.yaml": {
+          "bytes": 26888,
+          "sha256": "ed5441ea8c6b23bf43321d8f53ce6807048c24fba96204e4734edc98c9505cfb"
+        }
+      }
+    },
+    "safe_w2_s2": {
+      "task": "RLlab-Reach-Franka-Safe-W2",
+      "train_seed": 2,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w2\\2026-11-25_11-55-20",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "6de5f1e7df914a8aa53cbfe9d6753da60d9d9bf8417921ee0fce1b557406eaa1"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "f7f1bb7ab4816c7ef67d7e57f29fa7434c0efcd094ea99291bdb0dfd0c759a1b"
+        },
+        "params/env.yaml": {
+          "bytes": 26888,
+          "sha256": "ce606b98a385954506e71d4f1b69e336be6debed69212e2cbcc58465df015175"
+        }
+      }
+    },
+    "safe_w0_s3": {
+      "task": "RLlab-Reach-Franka-Safe-W0",
+      "train_seed": 3,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w0\\2026-11-25_12-24-25",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "3afd7bfd4bfa9315fe4d53e6c4e21d07f22908f2cfa3f8237dd9d578a0781565"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "519456e11e0409449eeec645248e91c525aac63b5ff8aa052f754cb430ef6c84"
+        },
+        "params/env.yaml": {
+          "bytes": 26888,
+          "sha256": "a13e074edb3722ad11f848319fc37e4c297e60cb2f64ba84c1a75a3ea2f64dfa"
+        }
+      }
+    },
+    "safe_w2_s3": {
+      "task": "RLlab-Reach-Franka-Safe-W2",
+      "train_seed": 3,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_w2\\2026-11-25_12-34-10",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "74652b1f7fb11ce96dd400a702862635ddc671cdebbd7062dccd0581ea9b6cb9"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "e08cf547c21b9fb21c56f25f2a69e1a186592585c65e31f442c4528fd1d6a1fd"
+        },
+        "params/env.yaml": {
+          "bytes": 26888,
+          "sha256": "b06da935010cfb0b82e515a2c15f43fcbbe57e24659306ef9ccece68f33214ca"
+        }
+      }
+    },
+    "safe_m2": {
+      "task": "RLlab-Reach-Franka-Safe-M2",
+      "train_seed": 42,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_m2\\2026-11-25_17-03-12",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "afdfdb725a02ddeba2c1ac08014beaf3fd6d9b825ad98869f108472b5e8b6403"
+        },
+        "params/agent.yaml": {
+          "bytes": 1308,
+          "sha256": "f9fea118d39dd2702ed93fe652971ce1334e1e6b00d519bfddc5223180754dcc"
+        },
+        "params/env.yaml": {
+          "bytes": 27810,
+          "sha256": "2785decf1542554a7804f5a21e89b2dda7f4d732af300d489642c603f3025f47"
+        }
+      }
+    },
+    "safe_m2_s1": {
+      "task": "RLlab-Reach-Franka-Safe-M2",
+      "train_seed": 1,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_m2\\2026-11-25_17-29-41",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "3ce97ca28440ccee29d34cf9c071e5e104ff4c2f1ac88bb8aceea666fc4938c2"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "ee667b3c268ed4fbab593cf8d679e62107a26799972c2e86d19592fde5afea86"
+        },
+        "params/env.yaml": {
+          "bytes": 27809,
+          "sha256": "c5eb729cea64e107af926c5241f7a11e00c9c0c3055af3487419fa41c562b36a"
+        }
+      }
+    },
+    "safe_m2_s2": {
+      "task": "RLlab-Reach-Franka-Safe-M2",
+      "train_seed": 2,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_m2\\2026-11-25_18-53-48",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "fa96c6534451f072edaed3a471817dd339c3a8b1d1c4f98bb456124d83ad3f98"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "6c48f9b4cfb9f63b2e11d44f6106e5928a23dd2cf948e79a92f67e40f975dff5"
+        },
+        "params/env.yaml": {
+          "bytes": 27809,
+          "sha256": "29739b53081b0427cb17d17371ddeea18f51f28d94c8350f8f76c9d195afe590"
+        }
+      }
+    },
+    "safe_m2_s3": {
+      "task": "RLlab-Reach-Franka-Safe-M2",
+      "train_seed": 3,
+      "source_run_dir": "C:\\dev\\repos\\IsaacLab\\logs\\rsl_rl\\reach_franka_safe_m2\\2026-11-25_19-15-20",
+      "files": {
+        "model_999.pt": {
+          "bytes": 172923,
+          "sha256": "ee63e2e69a1be1efba435e35a7c37c2e873165f172eb9f589e4165c0a81ac918"
+        },
+        "params/agent.yaml": {
+          "bytes": 1307,
+          "sha256": "e6f655578bbac876599010a469c1cc18876e27f4b179f8ef0cff9f4edcffa085"
+        },
+        "params/env.yaml": {
+          "bytes": 27809,
+          "sha256": "a9bd493955ba2cfb0a9ee96aefc89eedd34957d9c25f27ac4e69627eca89e467"
+        }
+      }
+    }
+  }
+}
